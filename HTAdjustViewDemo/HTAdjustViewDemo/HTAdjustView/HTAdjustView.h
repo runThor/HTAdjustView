@@ -10,6 +10,7 @@
 
 @interface HTAdjustView : UIView
 
+// 设置名称、当前值、单位、上限值、下限值
 - (void)setName:(NSString *)name
           value:(CGFloat)value
            unit:(NSString *)unit
